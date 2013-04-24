@@ -24,3 +24,46 @@ factorial(Int, Acc, IoDevice)
 	factorial(Int-1,Acc * Int,IoDevice);
 factorial(0, Acc,IoDevice) ->
 	io:format(IoDevice, "Factorial Results: ~p~n",[Acc]).
+
+factorial_handler(Clients) ->
+	receive
+		{factorial, Int}->
+			io:format("Factorial for ~p is ~p ~n",[Int, factorial(Int, 1)]),
+			factorial_handler(Clients);
+			
+		{factorial, Node, Int}->
+			case dict:find(Node, Clients) of
+			{ok, Pid} ->
+				Pid ! {factorial, Int},
+				io:format("Message To: ~p PID: ~p ~n", [Node,Pid]);
+			error ->
+				io:format("Error! Unknown client: ~p~n", [Node])
+			end,
+			factorial_handler(Clients);
+		
+		{factorialRecorder, Int, File}->
+			{ok, IoDevice} = file:open(File, write),
+			factorial(Int,1,IoDevice),
+			io:format("Factorial Recorder Done. ~n",[]),
+			file:close(IoDevice),
+			factorial_handler(Clients);
+		
+		{register,Node,Pid} ->
+			case dict:find(Node, Clients) of
+			{ok, Pid} ->
+				io:format("Already registered: ~p PID: ~p ~n", [Node,Pid]);
+			error ->
+				io:format("Registered Node: ~p~n",[Node]),
+				factorial_handler(dict:store(Node,Pid,Clients))
+			end;
+			
+		stop ->
+			io:format("Shutting down.~n");
+		
+		members ->
+			io:format("dict: ~p~n",[Clients]);
+			
+		Other->
+			io:format("Invalid Match for ~p~n" ,[Other]),
+			factorial_handler(Clients)
+	end.
