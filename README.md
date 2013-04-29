@@ -35,3 +35,14 @@ rpc:call(node(),server,rpc,[{factorial,node(),6}]).
 %% stop your current node and unregister
 rpc:call(node(),server,stop,[node()]). 
 ~~~
+
+### GenServerTutorial - Learning how to use gen_server with supervisor###
+usage example
+~~~erlang
+%%Start the supervisor which starts everything else
+server_supervisor:start_lin().
+%% call factorial function 
+server:factorial(5).
+%% intensionally crash the app to restart supervisior but doesn't work needs fix
+server:factorial(an).
+~~~
