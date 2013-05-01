@@ -1,13 +1,9 @@
-IF EXIST C:\Program Files\erl5.9.2\bin goto dirExistOne else goto dirExistTwo
-:dirExistOne
+IF EXIST "C:\Program Files\erl5.9.2\bin\" (
 cd C:\Program Files\erl5.9.2\bin
-goto tidyup
-
-:dirExistTwo
-cd C:\Program Files\erl5.9.2\bin
-goto tidyup 
-
-:tidyup
 cls
-erlc C:\Users\LAB314\Documents\GitHub\ErlangCodes\factorial\src\server.erl
-erlc C:\Users\LAB314\Documents\GitHub\ErlangCodes\factorial\src\factorialCalculation.erl
+erlc C:\Users\LAB314\Documents\GitHub\ErlangCodes\factorial\src\server.erl C:\Users\LAB314\Documents\GitHub\ErlangCodes\factorial\src\factorialCalculation.erl
+) else (
+cd C:\Program Files\erl5.10.1\bin
+cls
+erlc -o C:\Users\ola\Documents\GitHub\ErlangCodes\factorial\ebin\ C:\Users\ola\Documents\GitHub\ErlangCodes\factorial\src\server.erl C:\Users\ola\Documents\GitHub\ErlangCodes\factorial\src\factorialCalculation.erl
+)
