@@ -28,24 +28,6 @@ factorial(Val,IoDevice) ->
 %% spawn(fun() -> divide_server:divide(10,0) end).
   gen_server:call({global,?MODULE},{factorial,Val,IoDevice}).
 
-
-
-factorialFunction(Int, Acc)when Int > 0 ->
-  factorialFunction(Int-1,Acc * Int);
-factorialFunction(0, Acc) ->
-  Acc.
-
-factorialFunction(Int, Acc, IoDevice)
-  when Int > 0 ->
-  io:format(IoDevice, "Current Factorial Log: ~p~n",[Acc]),
-  factorialFunction(Int-1,Acc * Int,IoDevice);
-factorialFunction(0, Acc,IoDevice) ->
-  io:format(IoDevice, "Factorial Results: ~p~n",[Acc]).
-
-
-
-
-
 %% gen_server callbacks
 %% gen_server calls on start up
 %% [] = state - something persistent between each message example: a dictionary
@@ -60,10 +42,12 @@ handle_call(stop, _From, State) ->
   {stop, normal, ok, State};
 
 handle_call({factorial,Val}, _From, State) ->
-  {reply, factorialFunction(Val,1),State};
+  Pid = spawn(fun() -> factorial_logic:factorial_handler() end),
+  {reply, Pid ! {factorial, Val},State};
 
 handle_call({factorial,Val,IoDevice}, _From, State) ->
-  {reply, factorialFunction(Val,1,IoDevice),State};
+  Pid = spawn(fun() -> factorial_logic:factorial_handler() end),
+  {reply, Pid ! {factorialRecorder, Val, IoDevice},State};
 
 handle_call(_Request, _From, State) ->
   {reply,error, State}.

@@ -4,14 +4,16 @@
     <list default="true" id="7def52a7-d911-4513-baee-6de6f51417f5" name="Default" comment="" />
     <ignored path="GenServerTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367526374348" ignored="false" />
+    <file path="/server.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367599291379" ignored="false" />
     <file path="/factorial.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367407476847" ignored="false" />
-    <file path="/Erlang Console" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367525939212" ignored="false" />
+    <file path="/Erlang Console" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367599340752" ignored="false" />
     <file path="/server_supervisor.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367520262446" ignored="false" />
-    <file path="/client.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367442240997" ignored="false" />
+    <file path="/client.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367542661394" ignored="false" />
     <file path="/factorial_application.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367525889820" ignored="false" />
     <file path="/factorial_resource.app" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367480921882" ignored="false" />
     <file path="/factorial_application.app" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367518155249" ignored="false" />
+    <file path="/factorial_logic.erl" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367598063703" ignored="false" />
+    <file path="/factorial_system.app" changelist="7def52a7-d911-4513-baee-6de6f51417f5" time="1367599122552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +77,43 @@
       <file leaf-file-name="server.erl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="50" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.93939394">
+            <state line="44" column="55" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.34843206">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factorial_application.app" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/factorial_application.app">
+      <file leaf-file-name="factorial_logic.erl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factorial_logic.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+            <state line="8" column="33" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factorial_application.erl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/factorial_application.erl">
+      <file leaf-file-name="client.erl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="10" column="34" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factorial_system.app" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factorial_system.app">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="25" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factorial_system.erl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factorial_system.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="27" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,7 +122,7 @@
       <file leaf-file-name="server_supervisor.erl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server_supervisor.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="42" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+            <state line="20" column="32" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,11 +142,13 @@
         <option value="$PROJECT_DIR$/src/ss.erl" />
         <option value="$PROJECT_DIR$/src/factorial.erl" />
         <option value="$PROJECT_DIR$/src/s.erl" />
-        <option value="$PROJECT_DIR$/src/client.erl" />
         <option value="$PROJECT_DIR$/src/factorial_resource.app" />
         <option value="$PROJECT_DIR$/src/server_supervisor.erl" />
         <option value="$PROJECT_DIR$/src/factorial_application.app" />
         <option value="$PROJECT_DIR$/src/factorial_application.erl" />
+        <option value="$PROJECT_DIR$/src/client.erl" />
+        <option value="$PROJECT_DIR$/src/factorial_logic.erl" />
+        <option value="$PROJECT_DIR$/src/factorial_system.app" />
         <option value="$PROJECT_DIR$/src/server.erl" />
       </list>
     </option>
@@ -208,11 +230,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="server" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -261,19 +283,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -300,6 +309,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -421,13 +443,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4708904" sideWeight="0.44545454" order="7" side_tool="true" content_ui="tabs" />
@@ -438,11 +459,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.5315162" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4684838" sideWeight="0.55454546" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.53321975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46678025" sideWeight="0.55454546" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -518,27 +540,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/server_supervisor.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server_supervisor.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="56" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server_supervisor.erl">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="64" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -598,30 +599,44 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorial_system.app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorial_system.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server_supervisor.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="42" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+        <state line="20" column="32" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorial_application.app">
+    <entry file="file://$PROJECT_DIR$/src/factorial_logic.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorial_application.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="8" column="33" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="50" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.93939394">
+        <state line="44" column="55" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.34843206">
           <folding />
         </state>
       </provider>

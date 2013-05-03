@@ -1,5 +1,5 @@
 %% Copyright
--module(factorial_application).
+-module(factorial_system).
 -author("ola").
 
 -behaviour(application).

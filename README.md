@@ -36,13 +36,22 @@ rpc:call(node(),server,rpc,[{factorial,node(),6}]).
 rpc:call(node(),server,stop,[node()]). 
 ~~~
 
-### GenServerTutorial - Learning how to use gen_server with supervisor###
+### GenServerTutorial - Learning how to use gen_server ,supervisor and application###
 usage example
+~~~
+Run the erlangRunner.bat file
+factorial_system should start with it
+If the application crashes the supervisor should reload it
+~~~
+
+Commands
 ~~~erlang
-%%Start the supervisor which starts everything else
-server_supervisor:start_lin().
-%% call factorial function 
-server:factorial(5).
+%%Send request as the client
+client:factorial(5).
+%% How to stop the application
+application:stop(factorial_system).
+%% Check if the application is still running
+application:which_applications().
 %% intensionally crash the app to restart supervisior but doesn't work needs fix
-server:factorial(an).
+client:factorial(an).
 ~~~
