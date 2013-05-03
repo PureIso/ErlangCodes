@@ -3,9 +3,9 @@
 -author("Ola").
 
 -behaviour(gen_server).
--record(state, {}).
+
 %% API
--export([start_link/0, factorial/1,stop/0]).
+-export([start_link/0, factorial/1, stop/0, factorial/2]).
 
 %% gen_server
 -export([init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2,
@@ -22,19 +22,44 @@ factorial(Val) ->
   %% spawn(fun() -> divide_server:divide(10,0) end).
   gen_server:call({global,?MODULE},{factorial,Val}).
 
+factorial(Val,IoDevice) ->
+%% spawn(fun() -> divide_server:divide(10,0) end).
+  gen_server:call({global,?MODULE},{factorial,Val,IoDevice}).
+
+
+
+factorialFunction(Int, Acc)when Int > 0 ->
+  factorialFunction(Int-1,Acc * Int);
+factorialFunction(0, Acc) ->
+  Acc.
+
+factorialFunction(Int, Acc, IoDevice)
+  when Int > 0 ->
+  io:format(IoDevice, "Current Factorial Log: ~p~n",[Acc]),
+  factorialFunction(Int-1,Acc * Int,IoDevice);
+factorialFunction(0, Acc,IoDevice) ->
+  io:format(IoDevice, "Factorial Results: ~p~n",[Acc]).
+
 
 
 
 
 %% gen_server callbacks
 init([]) ->
-  %%% we ensure that the supervisor to receive messages
+  %%% we ensure that the supervisor to receive notification when the process goes down
+  %%% When a process traps exists when ever the process dies it sends a message to the supervisor
   process_flag(trap_exit, true),
-  io:format("~p (~p) starting.... ~n", [?MODULE, self()]),
-  {ok, #state{}}.
+  io:format("~p (~p) starting.... ~n", [{global, ?MODULE}, self()]),
+  {ok, []}.
+
+handle_call(stop, _From, State) ->
+  {stop, normal, ok, State};
 
 handle_call({factorial,Val}, _From, State) ->
-  {reply,factorial:factorial(Val,1),State};
+  {reply, factorialFunction(Val,1),State};
+
+handle_call({factorial,Val,IoDevice}, _From, State) ->
+  {reply, factorialFunction(Val,1,IoDevice),State};
 
 handle_call(_Request, _From, State) ->
   {reply,error, State}.
@@ -50,7 +75,7 @@ handle_info(_Info, State) ->
   {noreply, State}.
 
 terminate(_Reason, _State) ->
-  io:format("terminating ~p~n", [?MODULE]),
+  io:format("terminating ~p~n", [{global, ?MODULE}]),
   ok.
 
 code_change(_OldVsn, State, _Extra) ->
