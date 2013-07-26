@@ -1,0 +1,167 @@
+2013-07-26 19:14:22.045 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:14:22.091 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:14:22.186 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:14:22.215 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:14:22.324 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:14:22.343 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:14:22.343 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:14:22.379 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:14:39.194 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:14:39.209 [error] <0.133.0> GET / [helloworld] 404 16ms
+2013-07-26 19:14:50.083 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:14:50.142 [info] <0.133.0> GET /index/index [helloworld] 200 59ms
+2013-07-26 19:16:33.637 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:16:33.694 [info] <0.133.0> GET /index/index [helloworld] 200 57ms
+2013-07-26 19:16:37.360 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:16:37.403 [info] <0.133.0> GET /index/index [helloworld] 200 44ms
+2013-07-26 19:16:44.545 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-07-26 19:17:02.791 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:17:02.833 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:17:02.916 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:17:02.941 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:17:03.013 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:17:03.036 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:17:03.037 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:17:03.073 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:17:14.073 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:17:14.080 [error] <0.148.0> GET / [helloworld] 404 7ms
+2013-07-26 19:17:20.367 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:17:20.437 [info] <0.148.0> GET /index/index [helloworld] 200 71ms
+2013-07-26 19:19:16.488 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:19:16.530 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:19:16.620 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:19:16.644 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:19:16.717 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:19:16.741 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:19:16.742 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:19:16.786 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:19:33.699 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:19:33.806 [info] <0.133.0> GET /index/index [helloworld] 200 107ms
+2013-07-26 19:20:45.009 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:20:45.055 [info] <0.133.0> GET /index/index [helloworld] 200 46ms
+2013-07-26 19:20:50.416 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:20:50.464 [info] <0.133.0> GET /index/index [helloworld] 200 47ms
+2013-07-26 19:20:57.092 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-07-26 19:21:27.480 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:21:27.524 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:21:27.615 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:21:27.641 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:21:27.714 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:21:27.742 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:21:27.743 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:21:27.795 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:21:44.143 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:21:44.206 [info] <0.148.0> GET /index/index [helloworld] 200 63ms
+2013-07-26 19:22:19.522 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-07-26 19:22:34.993 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:22:35.035 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:22:35.125 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:22:35.151 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:22:35.224 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:22:35.246 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:22:35.247 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:22:35.295 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:22:37.156 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:22:37.219 [info] <0.133.0> GET /index/index [helloworld] 200 63ms
+2013-07-26 19:22:49.187 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:22:49.245 [info] <0.134.0> GET /index/index [helloworld] 200 59ms
+2013-07-26 19:24:05.573 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:24:05.623 [info] <0.134.0> GET /index/index [helloworld] 200 50ms
+2013-07-26 19:24:21.612 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:24:21.659 [info] <0.134.0> GET /index/index [helloworld] 200 47ms
+2013-07-26 19:24:46.386 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:24:46.434 [info] <0.134.0> GET /index/index [helloworld] 200 48ms
+2013-07-26 19:25:45.946 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:25:45.994 [info] <0.134.0> GET /index/index [helloworld] 200 48ms
+2013-07-26 19:25:55.929 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:25:55.977 [info] <0.134.0> GET /index/index [helloworld] 200 48ms
+2013-07-26 19:26:39.688 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:26:39.740 [info] <0.134.0> GET /index/index [helloworld] 200 51ms
+2013-07-26 19:38:57.425 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:38:57.470 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:38:57.567 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:38:57.593 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:38:57.685 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:38:57.710 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:38:57.711 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:38:57.743 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:39:14.308 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:39:14.319 [error] <0.133.0> GET / [helloworld] 404 11ms
+2013-07-26 19:39:25.493 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:39:25.517 [error] <0.133.0> {{case_clause,undefined},[{boss_controller_adapter_pmod,init,5,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,782}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2013-07-26 19:39:25.813 [error] <0.133.0> GET /index/index [helloworld] 500 56ms
+2013-07-26 19:40:39.522 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:40:39.537 [error] <0.135.0> {{case_clause,undefined},[{boss_controller_adapter_pmod,init,5,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,782}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2013-07-26 19:40:39.628 [error] <0.135.0> GET /index/index [helloworld] 500 21ms
+2013-07-26 19:42:20.295 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:42:20.339 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:42:20.429 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:42:20.457 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:42:20.545 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:42:20.569 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:42:20.570 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:42:20.606 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:42:25.922 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:42:25.981 [info] <0.133.0> GET /index/index [helloworld] 200 59ms
+2013-07-26 19:42:52.980 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:42:53.007 [info] <0.133.0> GET /index/index [helloworld] 200 27ms
+2013-07-26 19:43:04.259 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:43:04.297 [info] <0.133.0> GET /index/index [helloworld] 200 38ms
+2013-07-26 19:43:14.427 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:43:14.472 [info] <0.133.0> GET /index/index [helloworld] 200 44ms
+2013-07-26 19:43:36.476 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:43:36.507 [info] <0.133.0> GET /index/index [helloworld] 200 32ms
+2013-07-26 19:43:39.708 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:43:39.734 [info] <0.133.0> GET /index/index [helloworld] 200 26ms
+2013-07-26 19:45:48.785 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:45:48.810 [info] <0.157.0> GET /index/index [helloworld] 200 24ms
+2013-07-26 19:50:32.845 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:50:32.890 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:50:32.986 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:50:33.012 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:50:33.114 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:50:33.137 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:50:33.138 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:50:33.169 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:50:50.364 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:50:50.372 [error] <0.133.0> GET / [helloworld] 404 9ms
+2013-07-26 19:51:04.188 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:51:04.235 [info] <0.133.0> GET /index/index [helloworld] 200 47ms
+2013-07-26 19:52:33.653 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-07-26 19:52:42.439 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-07-26 19:52:42.484 [info] <0.66.0> Starting Boss in development mode....
+
+2013-07-26 19:52:42.581 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-07-26 19:52:42.616 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-07-26 19:52:42.694 [info] <0.66.0> SSL:[]
+
+2013-07-26 19:52:42.722 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-07-26 19:52:42.724 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-07-26 19:52:42.760 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:52:57.335 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
+2013-07-26 19:52:57.386 [info] <0.148.0> GET / [helloworld] 200 52ms

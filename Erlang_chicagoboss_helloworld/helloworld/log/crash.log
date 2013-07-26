@@ -1,0 +1,21 @@
+2013-07-26 19:14:39 =ERROR REPORT====
+GET / [helloworld] 404 16ms2013-07-26 19:17:14 =ERROR REPORT====
+GET / [helloworld] 404 7ms2013-07-26 19:20:57 =SUPERVISOR REPORT====
+     Supervisor: {<0.96.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-07-26 19:22:19 =SUPERVISOR REPORT====
+     Supervisor: {<0.96.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-07-26 19:39:14 =ERROR REPORT====
+GET / [helloworld] 404 11ms2013-07-26 19:39:25 =ERROR REPORT====
+{{case_clause,undefined},[{boss_controller_adapter_pmod,init,5,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,782}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-07-26 19:39:25 =ERROR REPORT====
+GET /index/index [helloworld] 500 56ms2013-07-26 19:40:39 =ERROR REPORT====
+{{case_clause,undefined},[{boss_controller_adapter_pmod,init,5,[{file,"src/boss/controller_adapters/boss_controller_adapter_pmod.erl"},{line,14}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,782}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}2013-07-26 19:40:39 =ERROR REPORT====
+GET /index/index [helloworld] 500 21ms2013-07-26 19:50:50 =ERROR REPORT====
+GET / [helloworld] 404 9ms
