@@ -165,3 +165,17 @@
 2013-07-26 19:52:42.760 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
 2013-07-26 19:52:57.335 [info] <0.151.0> Loading routes from "c:/Users/Ola/Downloads/helloworld/priv/helloworld.routes" ....
 2013-07-26 19:52:57.386 [info] <0.148.0> GET / [helloworld] 200 52ms
+2013-09-28 14:59:37.212 [info] <0.7.0> Application lager started on node helloworld@MaxMatrix
+2013-09-28 14:59:37.253 [info] <0.66.0> Starting Boss in development mode....
+
+2013-09-28 14:59:37.327 [info] <0.66.0> Starting master services on helloworld@MaxMatrix
+
+2013-09-28 14:59:37.348 [info] <0.7.0> Application tinymq started on node helloworld@MaxMatrix
+2013-09-28 14:59:37.485 [info] <0.66.0> SSL:[]
+
+2013-09-28 14:59:37.507 [info] <0.7.0> Application boss started on node helloworld@MaxMatrix
+2013-09-28 14:59:37.507 [info] <0.7.0> Application helloworld started on node helloworld@MaxMatrix
+2013-09-28 14:59:37.538 [info] <0.151.0> Loading routes from "c:/Users/Ola/Documents/GitHub/ErlangCodes/Erlang_chicagoboss_helloworld/helloworld/priv/helloworld.routes" ....
+2013-09-28 15:00:32.825 [info] <0.151.0> Loading routes from "c:/Users/Ola/Documents/GitHub/ErlangCodes/Erlang_chicagoboss_helloworld/helloworld/priv/helloworld.routes" ....
+2013-09-28 15:00:32.881 [info] <0.148.0> GET / [helloworld] 200 57ms
+2013-09-28 15:02:08.191 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error

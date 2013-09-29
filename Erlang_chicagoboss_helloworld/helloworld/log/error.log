@@ -10,3 +10,4 @@
 2013-07-26 19:40:39.628 [error] <0.135.0> GET /index/index [helloworld] 500 21ms
 2013-07-26 19:50:50.372 [error] <0.133.0> GET / [helloworld] 404 9ms
 2013-07-26 19:52:33.653 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-09-28 15:02:08.191 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
