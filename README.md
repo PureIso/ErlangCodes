@@ -56,19 +56,22 @@ application:which_applications().
 client:factorial(an).
 ~~~
 
+
 ### Chicagoboss Hello World - Using chicagoboss framework###
-~~~Download and compiling Chicagoboss
--Download Chicago boss - http://www.chicagoboss.org/
--(Using Windows) Extract and store in C:\ChicagoBoss-0.8.7
--Inside the chicagoBoss-0.X.X folder, shift+mouse right click and open command window here
--Compile rebar -> rebar compile
--After -> windows-make
+Download and compiling Chicagoboss
+~~~
+- Download Chicago boss - (www.chicagoboss.org)
+- (Using Windows) Extract and store in (C:\ChicagoBoss-0.8.7)
+- Inside the chicagoBoss-0.X.X folder, shift+mouse right click and open command window here
+- Compile rebar -> rebar compile
+- After -> windows-make
 ~~~
 
-~~~Running the hello world project
--First of all make sure that the boss.config file Chicagoboss path is set: C:\\ChicagoBoss-0.8.7 <---Note double back slash
+Running the hello world project
+~~~
+-First of all make sure that the boss.config file Chicagoboss path is set: (C:\\ChicagoBoss-0.8.7 <---Note double back slash)
 -shift+mouse right click on the hello world folder
 -Compile rebar -> rebar compile
 -After run start-server
--You should see the Erlang console loading up then go to: http://localhost:8001/
+-You should see the Erlang console loading up then go to:(localhost:8001)
 ~~~
