@@ -2,4 +2,9 @@
 -export([index/2]).
 
 index('GET',[]) ->
-	{ok, [{hello,"Hello World!"}]}.
+	{ok, 
+		[
+			{hello,"Hello World!"},
+			{the_title,"Home Page"}
+		]
+	}.

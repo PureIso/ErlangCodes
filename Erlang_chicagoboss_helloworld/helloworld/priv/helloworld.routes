@@ -15,6 +15,7 @@
 
 % Front page
 {"/", [{controller, "index"}, {action, "index"}]}.
+{"/about/about", [{controller, "about"}, {action, "about"}]}.
 
 % 404 File Not Found handler
 % {404, [{controller, "world"}, {action, "lost"}]}.

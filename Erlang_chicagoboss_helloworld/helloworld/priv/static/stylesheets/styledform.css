@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 20px;
+}
+
+textarea {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 65%
+}
+
+table {
+  border: thin dotted #7e7e7e;
+  padding: 10px;
+}
+
+th {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 10px;
+  padding-top: 2px;
+  font-size: 80%
+}
+
+td {
+  vertical-align: top;
+  padding-bottom: 5px;
+  padding-right: 40px;
+}
+
+table table {
+  border: none;
+  padding: 0px;
+}
+
+table table td {
+  text-align: right;
+  padding-bottom: 0px;
+}
+
+p {
+  font-size: 70%
+}
+
+#error {
+	color: red;
+}

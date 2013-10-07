@@ -11,3 +11,24 @@
 2013-07-26 19:50:50.372 [error] <0.133.0> GET / [helloworld] 404 9ms
 2013-07-26 19:52:33.653 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
 2013-09-28 15:02:08.191 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 20:14:50.684 [error] <0.134.0> GET /stylesheets/styledform.css [helloworld] 404 10ms
+2013-10-07 20:14:50.839 [error] <0.135.0> GET /stylesheets/functions.js [helloworld] 404 10ms
+2013-10-07 20:14:50.884 [error] <0.133.0> GET /stylesheets/firstndb.css [helloworld] 404 19ms
+2013-10-07 20:26:09.708 [error] <0.148.0> GET /stylesheets/firstndb.css [helloworld] 404 12ms
+2013-10-07 20:26:09.795 [error] <0.133.0> GET /stylesheets/functions.js [helloworld] 404 94ms
+2013-10-07 20:26:09.848 [error] <0.157.0> GET /stylesheets/styledform.css [helloworld] 404 96ms
+2013-10-07 20:29:06.757 [error] <0.148.0> GET /stylesheets/firstndb.css [helloworld] 404 14ms
+2013-10-07 20:29:06.907 [error] <0.147.0> GET /stylesheets/styledform.css [helloworld] 404 107ms
+2013-10-07 20:29:06.975 [error] <0.146.0> GET /firstndb.css [helloworld] 404 105ms
+2013-10-07 20:29:07.041 [error] <0.144.0> GET /stylesheets/functions.js [helloworld] 404 106ms
+2013-10-07 20:29:07.107 [error] <0.145.0> GET /styledform.css [helloworld] 404 107ms
+2013-10-07 20:38:03.854 [error] <0.148.0> GET /stylesheets/functions.js [helloworld] 404 13ms
+2013-10-07 20:38:37.179 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-10-07 20:40:30.058 [error] <0.146.0> GET /stylesheets/functions.js [helloworld] 404 11ms
+2013-10-07 20:44:15.510 [error] <0.148.0> GET /js/ [helloworld] 404 10ms
+2013-10-07 20:44:19.665 [error] <0.148.0> GET /css/ [helloworld] 404 3ms
+2013-10-07 20:46:28.921 [error] <0.133.0> GET /index/index.html [helloworld] 404 57ms
+2013-10-07 20:47:14.883 [error] <0.133.0> GET /index/index.html [helloworld] 404 62ms
+2013-10-07 20:47:19.386 [error] <0.133.0> GET /index/index.html [helloworld] 404 61ms
+2013-10-07 20:53:23.322 [error] <0.145.0> GET /css/ [helloworld] 404 8ms
+2013-10-07 20:54:10.027 [error] <0.145.0> GET /about/about [helloworld] 404 4ms
