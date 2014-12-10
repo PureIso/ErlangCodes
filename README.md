@@ -60,6 +60,30 @@ client:factorial(an).
 ### Chicagoboss Hello World - Using chicagoboss framework###
 Download and compiling Chicagoboss
 ~~~
+
+
+#Client (C#) and Server(Erlang) Socket Application#
+Communication between erlang server and c# client using tcp socket.  Commands can be sent from the c# client and executed on erlang.
+
+##How to Run##
+~~~
+ 1.	Using intelliJ import the Socker Server.IML file
+ 2. Edit configuration and edit directory
+ 3. Rebuild and Run
+
+ Alternative
+ 1.	compile the socket_server application
+ 2. Run erlang with: erl -pa /beam PATH/ -sa socket_server start_server []
+
+ 3*/4. Compile the client code using Visual Studios or Mono
+ 5. Run and execute
+~~~
+
+TODO:
+~~~
+Build a fault tolerant system using gen_server, supervisor and application behaviour
+~~~
+
 - Download Chicago boss - (www.chicagoboss.org)
 - (Using Windows) Extract and store in (C:\ChicagoBoss-0.8.7)
 - Inside the chicagoBoss-0.X.X folder, shift+mouse right click and open command window here
