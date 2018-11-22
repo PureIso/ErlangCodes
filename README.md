@@ -1,7 +1,9 @@
 Erlang Codes
 ===========
+
 My collection of erlang codes
 Please feel free to improve on codes.
+[YouTube Videos](https://www.youtube.com/user/UXLearner)
 
 ~~~
 -Run the erlangRunner.bat file as admin to compile and run the application
